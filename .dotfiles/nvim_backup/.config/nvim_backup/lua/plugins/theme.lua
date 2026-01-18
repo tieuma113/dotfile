@@ -1,0 +1,1 @@
+/home/tieuma/.config/omarchy/current/theme/neovim.lua

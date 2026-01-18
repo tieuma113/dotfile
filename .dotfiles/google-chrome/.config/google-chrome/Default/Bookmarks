@@ -1,0 +1,200 @@
+{
+   "checksum": "2d3fca5f2243d5bcc5e36bb8ba330091",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13083169446930483",
+            "date_last_used": "0",
+            "guid": "a46d3419-da7c-4183-bfa0-d92c9f0445d5",
+            "id": "16",
+            "meta_info": {
+               "last_visited": "13181146207609860",
+               "last_visited_desktop": "13203431704571088"
+            },
+            "name": "Hyhihi",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13284227697729743",
+            "date_last_used": "13401780954900266",
+            "guid": "2b9baa30-0be8-44b6-8fce-ace60457a818",
+            "id": "17",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13331394168959405",
+            "date_last_used": "13399398403514790",
+            "guid": "f42f24e9-4687-4f77-827e-7dcb60955a73",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(12) Blind 75 LeetCode Questions - LeetCode Discuss",
+            "type": "url",
+            "url": "https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions"
+         } ],
+         "date_added": "13413144354716514",
+         "date_last_used": "0",
+         "date_modified": "13331394168959405",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13349201605883816",
+            "date_last_used": "0",
+            "guid": "827e6833-42d7-4c32-89f2-2a3b0a7e6e08",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Xây Dựng Lộ Trình Học IELTS Online Từ Lên 7.0+",
+            "type": "url",
+            "url": "https://prep.vn/blog/lo-trinh-hoc-ielts-cho-nguoi-moi-bat-dau-tu-a-den-z/"
+         }, {
+            "date_added": "13365427574958169",
+            "date_last_used": "0",
+            "guid": "1d5f7041-77fd-4a5f-a44e-afe0157639e7",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Copilot",
+            "type": "url",
+            "url": "https://copilot.microsoft.com/?form=MT00IS"
+         }, {
+            "date_added": "13379802883389156",
+            "date_last_used": "0",
+            "guid": "e78f602f-5f01-401a-83a0-d76a2e441011",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Level 92 Summon Skeletons Necromancer [3.25]",
+            "type": "url",
+            "url": "https://pobb.in/YWNR-DkYWrzt"
+         }, {
+            "date_added": "13380404674671292",
+            "date_last_used": "0",
+            "guid": "ae2b0f28-d346-44e5-aa77-40441c89d9b2",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Poison SRS Necromancer League Starter 3.25 - POE Maxroll.gg",
+            "type": "url",
+            "url": "https://maxroll.gg/poe/build-guides/poison-srs-necromancer-league-starter"
+         }, {
+            "date_added": "13385132087100982",
+            "date_last_used": "0",
+            "guid": "a40d6afc-e97f-4519-9098-a6f9ebf959cf",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "VMware Horizon",
+            "type": "url",
+            "url": "https://vdi.fsoft.com.vn/portal/webclient/#/"
+         }, {
+            "date_added": "13392405594616360",
+            "date_last_used": "0",
+            "guid": "cb6a94e9-a478-45b8-8deb-8fb1f71001d3",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Roadmap",
+            "type": "url",
+            "url": "https://neetcode.io/roadmap"
+         }, {
+            "date_added": "13394865985165877",
+            "date_last_used": "0",
+            "guid": "e541c3ed-8b77-4db5-9ac7-f2e3e10963cd",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "stat(2) - Linux manual page",
+            "type": "url",
+            "url": "https://man7.org/linux/man-pages/man2/stat.2.html"
+         }, {
+            "date_added": "13399398509989366",
+            "date_last_used": "0",
+            "guid": "de4eecc2-a256-4277-bf41-60353f5f356f",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Generate Parentheses - NeetCode",
+            "type": "url",
+            "url": "https://neetcode.io/problems/generate-parentheses?list=neetcode150"
+         }, {
+            "date_added": "13405363044408049",
+            "date_last_used": "0",
+            "guid": "6411994c-4233-498a-bc42-a34ee7081065",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Blog - Embedded Artistry",
+            "type": "url",
+            "url": "https://embeddedartistry.com/blog/"
+         }, {
+            "date_added": "13406655053080799",
+            "date_last_used": "0",
+            "guid": "d5f4519f-acbd-4ff5-bb7a-6dcb68860c1f",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "getcracked | Master Technical Interviews Fast",
+            "type": "url",
+            "url": "https://getcracked.io/#pricing"
+         }, {
+            "date_added": "13412611407500783",
+            "date_last_used": "0",
+            "guid": "bf5f5054-fdfc-442e-8bcb-6cbf2d960909",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Operating Systems: Three Easy Pieces",
+            "type": "url",
+            "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+         } ],
+         "date_added": "13413144354716514",
+         "date_last_used": "0",
+         "date_modified": "13412611407500783",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13340372819167715",
+            "date_last_used": "0",
+            "guid": "ba8d66eb-eeb3-4b56-9107-71157f101d01",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "nhattruyenplus.com",
+            "type": "url",
+            "url": "https://nhattruyenplus.com/truyen-tranh/dang-nhap-murim/chap-73/729066"
+         } ],
+         "date_added": "13413144354716514",
+         "date_last_used": "0",
+         "date_modified": "13340372819167715",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CpYCCvUBCIiBAhLuASAAkgHZAQrWAQoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJzqI2wphIBgARzqI2wphIBgAiNAkf4hzCmEgGABADGfc6rhUncYZ2IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAkf4hzCmEgGABADGfc6rhUncYZ2IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAkf4hzCmEgGABADGfc6rhUncYZ2IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpdaA4wphIBgDqAQwIxoyvywYQqMeshAMSACoYK1B6OWRJUjgyZXN4Z3k1aHA0WEErZz09SAMS6wEIExLmAQocUURNQldKbmVOWkxUZldIY2lkZVhkeE9QMTdzPRJmWjpBRHF0QVp6cDQxdjNONWthcFZHQ2IrTXNvelZqVzZzdllHYWlQT1YxNnBDaURZYXZyTmlqTHRjUHJCWURTby92d3hUQnJyS05Bc3ovV2pVS055VUR1YmQ1QlN1cGErbk9Sdz09GAAgACgAMOaO2PaUzYEDOOLp4dutMUDi6eHbrTFKHDFpZ1pmOVI1ZlZKejhxeG1nanhwTXB6WDVHdz1aHiIccVM1dXc4amNjOFcySHE4bEJqQmRpVGpmZXNFPWWxxPhMEu4BCBIS6QEKHGZCaDNJYlVRSFdWUnlVTXQzc2E2SXV6M1dIMD0SZlo6QURxdEFaenA0MXYzTjVrYXBWR0NiK01zb3pWanBhanlKN0VGUHh6Y0t5VzdYckhOK2ZnNHdadEtpQnphbVppTzcyLzFGYVltMTN1UjZ4VUhoSThzV3hlK1NCMlF4NEVLL1E9PRgAIAAoADCXyIauhIOPAzj/wLSijDFA/8C0oowxShxhOGNYbmRZV04xSUVIN2s4cXRlY3pxS2IwbU09WiEiH///+1NIWVZGS1FSMXRlTjVlRmkwcUZEbWtqVUhMWT1lNDh6gxLtAQgREugBChxIaGE0N1c5bE8vWGhldUkvY2VtaWFVNVgxY1E9EmZaOkFEcXRBWnpwNDF2M041a2FwVkdDYitNc296VmpXN001NUwrRjR5TjhGa3FzSmhLRE9lRzl3bGdVcGNWcGNHcVlGZW1QU0R0dUxUMWpQRnZZWUhsbEp3VDBKcWlFTGs2eU9nPT0YACAAKAAwgu//hbDIjwM4luLbx9wvQJbi28fcL0ocbWZvaVR2SUhWTVlWL2hsWFFmUHBuOGhYc1NrPVogIh7//kxodlRkRlpoU0Qvdlh2Ukk1bksvVXV1QmVjcz1lQ/htgBKsAggQEqcCChxiS2tlMTlXcFQ1WnN5R3FpVStpS09UZzJMaFU9EqYBWjpBRHF0QVp3V3FjOENMNXRNNEg4Mzd3ZGRad0FNRS9oclFjRWhRY1ZHMUJIR2ZwaVdzSWZOTlVPTExXQk9kNG9CeTNhTjZYOUcyb3B5cURQK2RjOHUyQWMvazJReWRxWVg2S3BBcitvRFNSaWpZSVpGemJjVGZPODRLRVMwVXUybngyVXBsWVlqcnBFOUJaRkxkUjBpSEJNdDJYTTRDRFNBakE9PRgAIAAoADCkh5GGoI6PAzi3l5iuzSxAt5eYrs0sShxMaUowZUcvSzkrdlJYMDhwbzJOa0VOTjBncDA9Wh4iHGZJbjJiQnZ5MkpQaHhITXBYTUZmODJ2RnJkcz1lQ/htgBLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnhMTUxlK0VjZTVtNTl5TThKSEprWU44MWxxcDlKWWdYOS9sTkhCN1dadWRIcTRUZmpkOTUweGlwQjdzTWI2OTdIU0NrVld1Q2lLd0FVcmEzalBVR25lUnhPK2dnPT0YACAAKAAwn8TzkIyTkgM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnlmRDFVUGtZTTZJZnZlR1pINzhzdEloNTNTWm1VNml4c09kUGk0UHAxMEVZNnVGUktkaDVXY2YyTDJZT0tORHFlUXpXN3MYACAAKAAwn8TzkIyTkgM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLsAQgPEucBChxMYklpaTRVWFZDT01MZW1wZFZBR3ZtVDlpejg9EmZaOkFEcXRBWnpwNDF2M041a2FwVkdDYitNc296VmpGejM0cDZpSGJpT2tPUHhKK21pcjUxZUozY2IzeVFaYUFncHA0Vklub1hRamQyeHFNNEFiLzB6OGhyc1lEaTRiVzgzbTF3PT0YACAAKAAwja3i+cqDkgM4jK3n6bozQIyt5+m6M0ocTzIvRkNsdnBMd1p1U1E1NjRJaU56UTIrbTdJPVofIh3/NURpaDRnZmxBMUFWTW93bHpPNWNIaDF2K0dBPWX3J63iEuwBCAwS5wEKHEttK0wvcjYrbHJObjcvQ0NxclowUzZGNlJtYz0SZlo6QURxdEFaenA0MXYzTjVrYXBWR0NiK01zb3pWalcydTdwV01RVHlJNmQ4bnQrcUVVUWpwUGl4WWk3d3N1TEpYOXBlQjZGYUtIWFZkMGFjSFdoT3ZqUVIzQjFUSnMvRzBOREE9PRgAIAAoADDW1ebfhIOPAzili7TNiTNApYu0zYkzShxoZEE2ZTZrOVROMmQxUmU0L3Y1Y0FhbHBmZFk9Wh8iHftEQ1VPWXNvMVpwYkZLZC9xQm5lWWhoQ0hTbVE9ZeqRYPsS7AEICxLnAQocWTNLakpYM05JRFVwbkMwMXkzT0lPMEZTQ3A4PRJmWjpBRHF0QVp6cDQxdjNONWthcFZHQ2IrTXNvelZqZ09PVy9XaHIxWmREUmhJMGFQa1RmZ0xTeTNnSlFrK2FXekU0aTVpUlFnVlFwVEpWWlJneFVEdm1rRngzSEFQaWFPT3NTZz09GAAgACgAMLizy+WP/40DOJDdkNz4MkCQ3ZDc+DJKHDYybVkzT3NwVVdUNEhTV0pDN3BWYUo4RUlUOD1aHyId9jdCUmdGSHRhb2tNSE5EYWp2dG54WUxHY2o5ND1lAAAAABLsAQgNEucBChx5N2k4dU0vNlhvSmhRQzBZZm9YME1hRHZQV2M9EmZaOkFEcXRBWnpwNDF2M041a2FwVkdDYitNc296VmptVkhiSHc0aXh1L083RXo4WjFDbVJvcEovR1NOVFZQVzV3bnkwODltV1JnN0YxTmFiRFVERzhvY09TbFJ4am5tNkVWNHNBPT0YACAAKAAwodftrtCwkAM4uLDC6Z8zQLiwwumfM0ocTWx6c0Z2NTNlaTlFU2lHL1hzQW5rS3JueTJZPVofIh39dnIvL0wzeko4UWlxU1R0dEpvNnM5Y1FlV1BjPWWLdkypEuwBCAkS5wEKHEFBNEp6REZNMnJQRWVyQnNQZ1NNejgyQVRkOD0SZlo6QURxdEFaenA0MXYzTjVrYXBWR0NiK01zb3pWajNRTWtCL3hhZzVLc1dOUXBBZ2Q4WHlySXpjQ2NqWkpqN2IzdCtlTUc2Z3haWkJUYWZsVlh6bkVXS1NuVVBjOERpZmxsbHc9PRgAIAAoADCmzJiX6uOLAzi93tK61DJAvd7SutQyShxkYVZDQjVCRHJHY0NqUmxlODVRWFdTc3RlUDg9Wh8iHdtCM0dTTWtINVUzd1hsMDE4cXRKUjVlMzhLQlE9ZdTgxFYSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp4aUdCaGNUc09veEx3dEU4NzFBNVFsdmQzdkFtQ0dEM1JKUkI4WEtMU2tKbGNqc2dEY2VuYnZiODhHa00ramV0R2gyU3cxdE9nWU9pODMrTzh5b1lwZHNrc0IxQT09GAAgACgAMJ/E85CMk5IDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS7AEICBLnAQocbUxDZlI0NUFHb0pvclA0dS9Hb0RCRS9ydTg4PRJmWjpBRHF0QVp6cDQxdjNONWthcFZHQ2IrTXNvelZqUjQ2WmhnRVdBT3FNNUU0UXN0UThrU3hKUEpzOFZVRkFHSExNbUVwR3gwVGxOWHFMeE9pZXR3bnBzaHlIa3dXaWRzcGxldz09GAAgACgAMJ+fipqf2ooDOPCwuOzCMkDwsLjswjJKHFRrc0hyKytiZ1BhSzQvb1ZoS2U1TDNwN0lJVT1aHyIdtmdlcGYzd1JGNUdicFlwVTVHbUswWWNORWZWST1lNNMaShLrAQgFEuYBChwrTjlxSVBvbGVOa3hOaU0wNWR4U0Ywbm5QY2M9EmZaOkFEcXRBWnpwNDF2M041a2FwVkdDYitNc296VmpHRVdxWG9pbms2Ny9UVTlFNDgwcjdPdXBmVjFudE1LWkd2QVBGSisrSnNaWmh1VXhaNXN5Qk1qekZzTnpadEEvTG9TcjNRPT0YACAAKAAw0rDs2o7OgwM4/JnUzc4xQPyZ1M3OMUocRHl5QVRrZGtYdVZNL2FGTE9UZFUrS29EbFNrPVoeIhxRemlwQ0ZDVkdlcU5CZDYxQUgzc1B3WEhoOTg9ZVYduJcS6wEIBxLmAQocYmJSSTMzWWlnWFhFOC9FZ0kzeDcvbTBma0xFPRJmWjpBRHF0QVp6cDQxdjNONWthcFZHQ2IrTXNvelZqTUhyODVoRUkvV3YxUTc1aUdkQ2FtQ2N6N0tKanZUem9BeXpNQXJ1S2dnVHhYZkNwL3NzM01XeHhQc25McDFYWHo3Y1RRZz09GAAgACgAMNvbhs+7yYoDOL76vc3AMkC++r3NwDJKHHpjSW5MOHJCUWFzTlVJSjhsZGhIOTZpREFNWT1aHiIcbWM4ak1lekFLRERWa01mZUJwYnBmK2kxOVBzPWXvS+TtEuwBCAoS5wEKHDFzeVZuWGprNkVlZk4wZVB4b0tjRkJjYW9pYz0SZlo6QURxdEFaenA0MXYzTjVrYXBWR0NiK01zb3pWakxRWm52MTJSUmRnN09hWWFJZ2R2TDFkZlJOVzdNUFlqeXBVVGxmSGg3MHJ3bmgxd20yYUwzSUtiQzNKaTVjNWtRV2s3WkE9PRgAIAAoADCMrpGHuI6PAzj4s/bG7zJA+LP2xu8yShxJd3lwRWFvS0FZaDlsS29TSzdQTitxVFZKdUU9Wh8iHe1jRXZhK0RuV3dRdTZxcXNpRGlURmh4L3YrVHM9ZeqRYPsS6wEIBhLmAQoceVFHZmNrbGNnTVdJSXRTcHJ4eit3S3R3REVFPRJmWjpBRHF0QVp6cDQxdjNONWthcFZHQ2IrTXNvelZqQ1NUc3RLTHlLbHlSa3pKaXlBYXJ5T0VPMW8rWjBXOUI5bklXUlZwdHRHd09wM092Y0tYRm5oQ2JwdEJOQzdUSXVtQStlZz09GAAgACgAMMPA6pOtpocDOK7h5oaLMkCu4eaGizJKHENnR2VzT045cko3a2JSdURSYkpRQjhBTWhVWT1aHiIcZTBWT0xNRDlYYk1CTXUxRVU0REhmZDcvNFJvPWXDp7OlEuwBCA4S5wEKHFhxVG1IRFRZeTd5b1FkQWFiNFdwRERNVmY0Yz0SZlo6QURxdEFaenA0MXYzTjVrYXBWR0NiK01zb3pWako2L29SVmFKQmsrbkIvTEtJYTlQRG5yWHAzUjBubUV4UTIxOWZMVVhWeW1uZmNlNC9UcVpOYmZlQWNXRHgyMFN3dkVpS1E9PRgAIAAoADDSgZy9ndaQAziYqszRpDNAmKrM0aQzShxyVUNEcjZtSEUzUEpKU3UvUDRYbzg2YlAvS1k9Wh8iHf5iUVNEMWlzTUZvcHhkZ3dCY0YwL3JTNVVMbmM9ZfiuIQIwATgA",
+   "version": 1
+}

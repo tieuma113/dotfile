@@ -1,0 +1,15 @@
+2026/01/18-09:55:00.521 5 Reusing MANIFEST /home/tieuma/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/01/18-09:55:00.537 5 Recovering log #34
+2026/01/18-09:55:00.538 5 Reusing old log /home/tieuma/.config/google-chrome/Default/Local Storage/leveldb/000034.log 
+2026/01/18-09:56:00.549 7 Level-0 table #37: started
+2026/01/18-09:56:00.554 7 Level-0 table #37: 89559 bytes OK
+2026/01/18-09:56:00.558 7 Delete type=0 #34
+2026/01/18-09:56:00.559 7 Compacting 4@0 + 1@1 files
+2026/01/18-09:56:00.567 7 Generated table #38@0: 121 keys, 149230 bytes
+2026/01/18-09:56:00.568 7 Compacted 4@0 + 1@1 files => 149230 bytes
+2026/01/18-09:56:00.570 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/18-09:56:00.571 7 Delete type=2 #26
+2026/01/18-09:56:00.571 7 Delete type=2 #28
+2026/01/18-09:56:00.571 7 Delete type=2 #31
+2026/01/18-09:56:00.571 7 Delete type=2 #33
+2026/01/18-09:56:00.571 7 Delete type=2 #37

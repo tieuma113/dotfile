@@ -1,0 +1,6 @@
+2026/01/18-00:57:37.808 7ec Reusing MANIFEST /home/tieuma/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/18-00:57:37.809 7ec Recovering log #3
+2026/01/18-00:57:37.809 7ec Reusing old log /home/tieuma/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2026/01/18-02:28:14.402 7ee Level-0 table #5: started
+2026/01/18-02:28:14.442 7ee Level-0 table #5: 1704686 bytes OK
+2026/01/18-02:28:14.447 7ee Delete type=0 #3

@@ -1,0 +1,6 @@
+2026/01/18-00:28:12.347 4500 Creating DB /home/tieuma/.config/google-chrome/Default/WebStorage/6/IndexedDB/indexeddb.leveldb since it was missing.
+2026/01/18-00:28:12.362 4500 Reusing MANIFEST /home/tieuma/.config/google-chrome/Default/WebStorage/6/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/01/18-00:51:06.140 44f3 Level-0 table #5: started
+2026/01/18-00:51:06.142 44f3 Level-0 table #5: 1210 bytes OK
+2026/01/18-00:51:06.145 44f3 Delete type=0 #3
+2026/01/18-00:51:06.145 44f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2026/01/18-09:55:01.634 1571 Reusing MANIFEST /home/tieuma/.config/google-chrome/Default/IndexedDB/chrome-extension_kbfnbcaeplbcioakkpcpgfkobkghlhen_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/18-09:55:01.635 1571 Recovering log #4
+2026/01/18-09:55:01.639 1571 Reusing old log /home/tieuma/.config/google-chrome/Default/IndexedDB/chrome-extension_kbfnbcaeplbcioakkpcpgfkobkghlhen_0.indexeddb.leveldb/000004.log 
+2026/01/18-09:55:05.967 1571 Level-0 table #8: started
+2026/01/18-09:55:05.970 1571 Level-0 table #8: 10375 bytes OK
+2026/01/18-09:55:05.972 1571 Delete type=0 #4
+2026/01/18-09:55:05.973 1571 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
