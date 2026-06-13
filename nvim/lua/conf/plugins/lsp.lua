@@ -36,17 +36,20 @@ return {
     -- Mason-lspconfig setup
     require("mason-lspconfig").setup({
       handlers = {
-        -- Default handler for automatically configuring installed servers
         function(server_name)
-          require("lspconfig")[server_name].setup({}) end,
-
-        -- You can add custom handlers for specific servers here
-        -- For example:
-        -- tsserver = function(_, opts)
-        --   require("lspconfig").tsserver.setup(opts)
-        -- end,
+          vim.lsp.enable(server_name)
+        end,
       },
     })
+
+    -- clangd is installed system-wide, configure it directly
+    local capabilities = require("cmp_nvim_lsp").default_capabilities()
+    vim.lsp.config('clangd', {
+      cmd = { "clangd", "--background-index", "--clang-tidy", "--header-insertion=iwyu" },
+      capabilities = capabilities,
+      filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
+    })
+    vim.lsp.enable('clangd')
 
     local cmp = require("cmp")
 
