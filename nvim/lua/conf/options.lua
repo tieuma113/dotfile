@@ -8,7 +8,6 @@ local options = {
   hlsearch = true,
   incsearch = true,
   ignorecase = true,
-  ro = false,
   mouse = "a",
   pumheight = 10,
   showmode = false,
@@ -21,7 +20,7 @@ local options = {
   termguicolors = true,
   timeoutlen = 1000,
   undofile = true,
-  updatetime = 300,
+  updatetime = 250,
   writebackup = false,
   expandtab = true,
   shiftwidth = 4,
@@ -55,7 +54,12 @@ vim.api.nvim_create_autocmd("FileType", {
     group = "FileTypeSpecific",
 })
 
-vim.cmd("autocmd BufEnter * set formatoptions-=cro")
-vim.cmd("autocmd BufEnter * setlocal formatoptions-=cro")
+-- Don't auto-continue comments on new lines
+vim.api.nvim_create_autocmd("FileType", {
+    group = "FileTypeSpecific",
+    callback = function()
+        vim.opt_local.formatoptions:remove({ "c", "r", "o" })
+    end,
+})
 
 vim.opt.shortmess:append "c"

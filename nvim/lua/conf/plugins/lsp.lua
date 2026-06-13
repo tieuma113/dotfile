@@ -1,5 +1,6 @@
 return {
   "neovim/nvim-lspconfig",
+  event = { "BufReadPre", "BufNewFile" },
   dependencies = {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
@@ -11,18 +12,20 @@ return {
     vim.api.nvim_create_autocmd('LspAttach', {
       desc = 'LSP actions',
       callback = function(event)
-        local opts = {buffer = event.buf}
+        local function map(lhs, rhs, desc)
+          vim.keymap.set('n', lhs, rhs, { buffer = event.buf, desc = desc })
+        end
 
-        vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
-        vim.keymap.set('n', '<leader>k', '<cmd>lua vim.diagnostic.open_float()<cr>', opts)
-        vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', opts)
-        vim.keymap.set('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>', opts)
-        vim.keymap.set('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<cr>', opts)
-        vim.keymap.set('n', 'go', '<cmd>lua vim.lsp.buf.type_definition()<cr>', opts)
-        vim.keymap.set('n', 'gr', '<cmd>lua vim.lsp.buf.references()<cr>', opts)
-        vim.keymap.set('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<cr>', opts)
-        vim.keymap.set('n', '<F2>', '<cmd>lua vim.lsp.buf.rename()<cr>', opts)
-        vim.keymap.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
+        map('K', vim.lsp.buf.hover, 'Hover docs')
+        map('<leader>k', vim.diagnostic.open_float, 'Line diagnostics')
+        map('gd', vim.lsp.buf.definition, 'Go to definition')
+        map('gD', vim.lsp.buf.declaration, 'Go to declaration')
+        map('gi', vim.lsp.buf.implementation, 'Go to implementation')
+        map('go', vim.lsp.buf.type_definition, 'Go to type definition')
+        map('gr', vim.lsp.buf.references, 'List references')
+        map('gs', vim.lsp.buf.signature_help, 'Signature help')
+        map('<F2>', vim.lsp.buf.rename, 'Rename symbol')
+        map('<F4>', vim.lsp.buf.code_action, 'Code action')
       end,
     })
 
