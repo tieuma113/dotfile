@@ -4,7 +4,6 @@ vim.api.nvim_create_autocmd("CursorHold", {
       focus = false,
       scope = "cursor",
       close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
-      border = "rounded",
       source = "if_many",
     })
   end,

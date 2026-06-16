@@ -19,6 +19,7 @@ local options = {
   swapfile = false,
   termguicolors = true,
   timeoutlen = 1000,
+  winborder = "rounded", -- rounded borders for all floats (hover, signature, diagnostics)
   undofile = true,
   updatetime = 250,
   writebackup = false,
