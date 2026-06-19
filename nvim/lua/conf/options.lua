@@ -1,7 +1,7 @@
 local options = {
   backup = false,
   clipboard = "unnamedplus",
-  cmdheight = 2,
+  cmdheight = 1,
   completeopt = { "menuone", "noselect" } ,
   conceallevel = 0,
   fileencoding = "utf-8",
@@ -18,7 +18,7 @@ local options = {
   splitright = true,
   swapfile = false,
   termguicolors = true,
-  timeoutlen = 1000,
+  timeoutlen = 300,
   winborder = "rounded", -- rounded borders for all floats (hover, signature, diagnostics)
   undofile = true,
   updatetime = 250,

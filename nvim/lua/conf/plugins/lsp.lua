@@ -28,17 +28,23 @@ return {
       end,
     })
 
+    -- Give every server blink's completion capabilities by default.
+    vim.lsp.config('*', {
+      capabilities = require("blink.cmp").get_lsp_capabilities(),
+    })
+
     -- mason-lspconfig v2 auto-enables every installed server via
     -- `vim.lsp.enable()` (automatic_enable = true by default), so no
     -- handlers block is needed here.
     require("mason").setup()
-    require("mason-lspconfig").setup()
+    require("mason-lspconfig").setup({
+      ensure_installed = { "lua_ls" },
+    })
 
     -- clangd is installed system-wide, configure + enable it directly.
-    local capabilities = require("blink.cmp").get_lsp_capabilities()
+    -- (capabilities come from the '*' config above.)
     vim.lsp.config('clangd', {
       cmd = { "clangd", "--background-index", "--clang-tidy", "--header-insertion=iwyu" },
-      capabilities = capabilities,
       filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
     })
     vim.lsp.enable('clangd')

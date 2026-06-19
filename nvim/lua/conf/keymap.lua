@@ -1,73 +1,57 @@
-local opts = { noremap = true, silent = true }
+local map = vim.keymap.set
+-- vim.keymap.set defaults to noremap; we only need silent + per-map desc.
+local opts = { silent = true }
+local function d(desc)
+  return { silent = true, desc = desc }
+end
 
-local term_opts = { silent = true }
-
--- Shorten function name
-local keymap = vim.api.nvim_set_keymap
-
---Remap space as leader key
-keymap("", "<Space>", "<Nop>", opts)
+-- Remap space as leader key
+map("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Modes
---   normal_mode = "n",
---   insert_mode = "i",
---   visual_mode = "v",
---   visual_block_mode = "x",
---   term_mode = "t",
---   command_mode = "c",
-
 -- Normal --
 -- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+map("n", "<C-h>", "<C-w>h", d("Window left"))
+map("n", "<C-j>", "<C-w>j", d("Window down"))
+map("n", "<C-k>", "<C-w>k", d("Window up"))
+map("n", "<C-l>", "<C-w>l", d("Window right"))
 
-keymap("n", "<C-d>", "<C-d>zz", opts)
-keymap("n", "<C-u>", "<C-u>zz", opts)
-
---keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+-- Keep cursor centered while scrolling
+map("n", "<C-d>", "<C-d>zz", opts)
+map("n", "<C-u>", "<C-u>zz", opts)
 
 -- Resize with arrows
-keymap("n", "<C-Up>", ":resize +1<CR>", opts)
-keymap("n", "<C-Down>", ":resize -1<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -1<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +1<CR>", opts)
+map("n", "<C-Up>", ":resize +1<CR>", opts)
+map("n", "<C-Down>", ":resize -1<CR>", opts)
+map("n", "<C-Left>", ":vertical resize -1<CR>", opts)
+map("n", "<C-Right>", ":vertical resize +1<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+map("n", "<S-l>", ":bnext<CR>", d("Next buffer"))
+map("n", "<S-h>", ":bprevious<CR>", d("Previous buffer"))
 
--- Insert --
--- Press jk fast to enter
--- keymap("i", "jk", "<ESC>", opts)
+-- Disable Ex mode
+map("n", "Q", "<nop>", opts)
 
 -- Visual --
--- Stay in indent mode
--- keymap("v", "<", "<gv", opts)
--- keymap("v", ">", ">gv", opts)
-
-keymap("n", "Q", "<nop>", opts)
-
 -- Move text up and down
-keymap("v", "<A-j>", ":m .+1<CR>==", opts)
-keymap("v", "<A-k>", ":m .-2<CR>==", opts)
-keymap("v", "p", '"_dP', opts)
+map("v", "<A-j>", ":m .+1<CR>==", opts)
+map("v", "<A-k>", ":m .-2<CR>==", opts)
+-- Paste over selection without yanking the replaced text
+map("v", "p", '"_dP', opts)
 
 -- Visual Block --
 -- Move text up and down
-keymap("x", "J", ":move '>+1<CR>gv=gv", opts)
-keymap("x", "K", ":move '<-2<CR>gv=gv", opts)
-keymap("x", "<A-j>", ":move '>+1<CR>gv=gv", opts)
-keymap("x", "<A-k>", ":move '<-2<CR>gv=gv", opts)
-keymap("x", "p", '"_dP', opts)
+map("x", "J", ":move '>+1<CR>gv=gv", opts)
+map("x", "K", ":move '<-2<CR>gv=gv", opts)
+map("x", "<A-j>", ":move '>+1<CR>gv=gv", opts)
+map("x", "<A-k>", ":move '<-2<CR>gv=gv", opts)
+map("x", "p", '"_dP', opts)
 
 -- Terminal --
 -- Better terminal navigation
-keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
-keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
-keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
-keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
+map("t", "<C-h>", "<C-\\><C-N><C-w>h", opts)
+map("t", "<C-j>", "<C-\\><C-N><C-w>j", opts)
+map("t", "<C-k>", "<C-\\><C-N><C-w>k", opts)
+map("t", "<C-l>", "<C-\\><C-N><C-w>l", opts)

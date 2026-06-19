@@ -24,8 +24,17 @@ return {
     appearance = { nerd_font_variant = "mono" },
 
     -- Native snippet support + path/buffer sources, all built in.
+    -- `lazydev` feeds vim/plugin API completions when editing Lua config.
     sources = {
-      default = { "lsp", "path", "snippets", "buffer" },
+      default = { "lazydev", "lsp", "path", "snippets", "buffer" },
+      providers = {
+        lazydev = {
+          name = "LazyDev",
+          module = "lazydev.integrations.blink",
+          -- Rank lazydev results above LSP so vim API shows first in Lua.
+          score_offset = 100,
+        },
+      },
     },
 
     completion = {

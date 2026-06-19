@@ -12,8 +12,7 @@ return {
     ts.setup({})
 
     local ensure_installed = {
-      "c", "cpp", "python", "html", "css", "matlab",
-      "javascript", "lua", "vim", "vimdoc", "query",
+      "c", "cpp", "python",
     }
 
     -- Install the listed parsers (async; no-op for already-installed ones).
